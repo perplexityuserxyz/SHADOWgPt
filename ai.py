@@ -40,13 +40,13 @@ class colors:
     bold = "\033[1m"
 
 # Configuration
-CONFIG_FILE = "wormgpt_config.json"
+CONFIG_FILE = "shadowgpt_config.json"
 PROMPT_FILE = "system-prompt.txt"  # 🧩 Local system prompt file
-DEFAULT_API_KEY = "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" 
+DEFAULT_API_KEY = "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" 
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
 DEFAULT_MODEL = "deepseek/deepseek-r1:free" 
 SITE_URL = "https://github.com/00x0kafyy/worm-ai"
-SITE_NAME = "WormGPT CLI"
+SITE_NAME = "ShadowGPT CLI"
 SUPPORTED_LANGUAGES = ["English", "Indonesian", "Spanish", "Arabic", "Thai", "Portuguese"]
 
 def load_config():
@@ -342,4 +342,5 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+
     main()
